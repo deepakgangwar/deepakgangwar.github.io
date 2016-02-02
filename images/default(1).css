@@ -1,0 +1,121 @@
+/*========================================================*/
+/*            Designed by DNNCovered.com                  */
+/*========================================================*/
+
+/*========================================================*/
+/*  Default CSS                                           */
+/*========================================================*/
+
+/* HTML BODY css  --*/
+BODY {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	background-image: url(../images/bg-main-right.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+/*========================================================*/
+/*  Tokens                                                */
+/*========================================================*/
+
+/*-- Login Register token              --*/ .login-register, a.login-register:link, a.login-register:visited, a.login-register:active { FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #8D8D8D; FONT-FAMILY: Tahoma; text-decoration: none; }
+/*-- Login Register token hover        --*/ a.login-register:hover { FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #8D8D8D; FONT-FAMILY: Tahoma; text-decoration: underline; }
+
+/*-- Copyright token                   --*/ .copy-right { color: #675F52; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+
+/*-- Date token                        --*/ .date { color: #000000; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+
+/*-- Links token       		           --*/ .Links, a.Links:link, a.Links:visited, a.Links:active { color: #8D8D8D; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+/*-- Links token hover 		           --*/ a.Links:hover { color: #8D8D8D; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: underline; }
+
+/*-- Breadcrum token                   --*/ .breadcrum, a.breadcrum:link, a.breadcrum:visited, a.breadcrum:active { color: #000000; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+/*-- Breadcrum token hover             --*/ a.breadcrum:hover { color: #000000; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: underline; }
+
+/*-- Terms Privacy token       		   --*/ .terms-privacy, a.terms-privacy:link, a.terms-privacy:visited, a.terms-privacy:active { color: #8D8D8D; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+/*-- Terms Privacy token hover 		   --*/ a.terms-privacy:hover { color: #8D8D8D; font-family: Tahoma; font-size: 11px; font-weight: normal; text-decoration: none; }
+
+/*-- Search box css		   	    	   --*/ #dnn_dnnSEARCH_txtSearch.NormalTextBox {  width: 150px; height: 19px; background-color: #FFFFFF; padding: 0px 0px 0px 3px; border: 1px solid #C5C5C5; font-family: Tahoma; FONT-WEIGHT: normal; FONT-SIZE: 11px; color: #8D8D8D; text-decoration: none; cursor:text;}
+
+/*========================================================*/
+/*  Default Container Headings                            */
+/*========================================================*/
+
+/*-- Heading # 1              			--*/ .cnt1_heading  { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #C11911; FONT-FAMILY: Trebuchet MS; }
+/*-- Heading # 2              			--*/ .cnt2_heading  { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #675F52; FONT-FAMILY: Trebuchet MS; }
+/*-- Heading # 2b              			--*/ .cnt2b_heading { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #3A3A3A; FONT-FAMILY: Trebuchet MS; }
+/*-- Heading # 3              			--*/ .cnt3_heading  { FONT-WEIGHT: bold;   FONT-SIZE: 16px; COLOR: #FF9700; FONT-FAMILY: Arial; }
+/*-- Heading # 3b              			--*/ .cnt3b_heading { FONT-WEIGHT: bold;   FONT-SIZE: 16px; COLOR: #3A3A3A; FONT-FAMILY: Arial; }
+/*-- Heading # 4              			--*/ .cnt4_heading  { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #2D6FA3; FONT-FAMILY: Trebuchet MS; }
+/*-- Heading # 5              			--*/ .cnt5_heading  { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #3A3A3A; FONT-FAMILY: Trebuchet MS; }
+/*-- Heading # 6              			--*/ .cnt6_heading  { FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #FFFFFF; FONT-FAMILY: Arial; }
+
+
+/*========================================================*/
+/*  Default DNN CSS                                       */
+/*========================================================*/
+
+select, input { font-family: tahoma; font-size: 11px; color: #333333; }
+.NormalTextBox { color: #333333; padding-left: 2px; line-height: 12px; font-family: tahoma; font-weight: normal; font-size: 11px; }
+td.NormalTextBox { padding: 0; margin: 0; background: transparent; border: 0; }
+
+
+/*-- Default SubHead CSS        		   --*/
+
+.SubHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #675F52; FONT-FAMILY: Tahoma;
+}
+
+.SubSubHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Tahoma;
+}
+
+.CommandButton {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; FONT-FAMILY: Tahoma;
+}
+
+A.CommandButton:link {
+	COLOR: #8D8D8D; TEXT-DECORATION: underline;
+}
+
+A.CommandButton:visited {
+	COLOR: #8D8D8D; TEXT-DECORATION: underline;
+}
+
+A.CommandButton:ative {
+	COLOR: #8D8D8D; TEXT-DECORATION: underline;
+}
+
+A.CommandButton:hover {
+	COLOR: #675F52; TEXT-DECORATION: underline;
+}
+
+
+/*-- Default --*/
+
+.Head
+{
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Trebuchet MS, Tahoma;
+	color: #675F52;
+}
+
+.Head2 {
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Trebuchet MS, Tahoma;
+	color: #675F52;
+}
+
+
+
+
+
+
+
+
+
