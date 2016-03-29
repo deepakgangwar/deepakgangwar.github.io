@@ -1,11 +1,11 @@
 body{
-	font-family: 'Roboto','Helvetica','Arial',sans-serif!important;	
+	font-family: 'Roboto','Helvetica','Arial',sans-serif!important;
 }
 
 ::-webkit-scrollbar { 
     display: none; 
 }
-
+/*
 a:link {
     background-color: none;
 }
@@ -21,7 +21,15 @@ a:hover {
 
 a:active {
     background-color: none;
-} 
+} */
+.go_top{
+	color: rgb(255,40,255);
+}
+
+.go_top:hover {
+   background-color: none;
+   color: yellow;
+}
 
 .mfont{
 	font-family: 'Dancing Script', cursive;
@@ -56,6 +64,12 @@ a:active {
     width: 50px;
 }
 
+.circle_image_big{
+	border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+}
 
 .main{
 	max-height: 300px;
@@ -68,6 +82,7 @@ a:active {
 .back{
 	background-color: rgb(100,180,100);
 }
+
 
 .top{
 	background-color: rgb(80,100,150);
@@ -95,4 +110,18 @@ a:active {
 	max-width: 40px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+.cards.mdl-card{
+	width: 512px;
+}
+
+.cards > .mdl-card__title{
+	color: #fff;
+	height: 176px;
+	background: url('../rcon.jpg') center / cover; 
+}
+
+.cards > .mdl-card__menu{
+	color: #fff;
 }
