@@ -125,3 +125,19 @@ a:active {
 .cards > .mdl-card__menu{
 	color: #fff;
 }
+
+#home{
+	display: block;
+}
+
+#about{
+	display: block;
+}
+
+#projects{
+	display: block;
+}
+
+#contacts{
+	display: block;
+}
